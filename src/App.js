@@ -5,6 +5,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <DayCard className='today' />
+        <DayCard />
+        <DayCard />
+        <DayCard />
         <DayCard />
       </header>
     </div>

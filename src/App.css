@@ -5,31 +5,37 @@
 .App-header {
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: black;
 }
 
-.card {
-  outline: 1px solid #eee;
-  width: 20%;
+.title {
+  color: #878787;
+  font-weight: 600;
+  padding-bottom: 15px;
 }
 
-.day {
-  color: gray;  
-  font-weight: 700;
-  margin-top: 10%;
-  padding-top: 5%;
+.card {
+  padding: 15px 0 10px 0;
+  outline: 1px solid #ddd;
+  width: 10rem;
+  height: 14rem;
+}
+
+.today {
+  background-color: #ddd;  
 }
 
 .temp {
   display: flex;
   justify-content: space-around;
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 2%;
+  font-size: 1.5rem;
 }
 .temp-min {
-  color: gray; /* Color change in min temp */
+  color: #878787; /* Color change in min temp */
 }
