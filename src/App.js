@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import DayCard from './components/Card';
-// require('dotenv').config();
-
 
 function App() {
   // OWM API Endpoint: https://api.openweathermap.org/data/2.5/forecast?q=${city}&APPID=${apiKey}&units=${units}
@@ -19,7 +17,7 @@ function App() {
       .then(res => res.json())
       .then(res => setWeatherData(res.list.map(forecast => {
         return {
-          day: forecast.dt_txt, // Convert to moment format 'ddd' (Tue)
+          day: forecast.dt_txt,
           icon: forecast.weather[0].icon,
           max: forecast.main.temp_max, 
           min: forecast.main.temp_min,
