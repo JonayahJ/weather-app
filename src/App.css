@@ -8,7 +8,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 24px;
   color: black;
 }
 
@@ -19,10 +19,10 @@
 }
 
 .card {
-  padding: 15px 0 10px 0;
+  padding: 20px 0 10px 0;
   outline: 1px solid #ddd;
   width: 10rem;
-  height: 14rem;
+  height: 16rem;
 }
 
 .today {
